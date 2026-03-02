@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* BALANCE SECTION */
+
+.balance-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.balance-card {
+    background-color: #e6edf5;
+    padding: 15px 25px;
+    border-radius: 8px;
+    min-width: 200px;
+}
+
+.balance-card p {
+    margin: 0;
+    color: #555;
+}
+
+.balance-card h2 {
+    margin: 5px 0 0 0;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+
+/* FORM */
+
+.form-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.amount-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+
+.amount-wrapper input {
+    border: none;
+    outline: none;
+}
+
+.primary-btn {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: #2980b9;
+}
+
+/* TABS */
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e2e6ea;
+    cursor: pointer;
+    border-radius: 6px 6px 0 0;
+    margin-right: 5px;
+}
+
+.tab.active {
+    background-color: white;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+/* TABLE */
+
+.table-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: #f1f3f5;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.editBtn {
+    background-color: #95a5a6;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    background-color: #7f8c8d;
+}
+
+.deleteBtn:hover {
+    background-color: #c0392b;
+}
